@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CART</title>
+ 
+<!-- including bootstrap files--> 
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous"> 
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
+<!-- including javascript files-->
+<script type="text/javascript" src="commonscript.js"></script>
+<script type="text/javascript" src="shopscript.js"></script>
+
+<!-- including css file-->
+<link rel="stylesheet" href="shop.css">
+
+</head>
+
+<body onload="addItemInTable()">
+
+<br>
+<div style="text-align:center">
+  <img src="images.png" height="100rem" width="100rem">
+
+  <h2 style="display: inline-block;font-family: 'Lato', sans-serif;
+">
+   <i>Items currently added in the cart</i>
+   </h2>
+</span>
+
+<!--creating a navigation bar -->
+<div class="topnav">
+  <a class="active" href="index.html">Home</a>
+  <a href="cart.html">Cart</a>
+</div>
+<br><br>
+<!-- creating table to store cart items in tabular form -->
+<div class="container">
+<table  class="table table-striped">
+ <thead>
+  <tr>
+    <td>Contents</td>
+    <td>Price (in Rs.)</td>
+    <td>Quantity</td>
+    <td>Amount (in Rs.)</td>
+    <td>Add</td>
+    <td>Remove</td>
+  </tr>
+ </thead>
+   <tbody id="tables">
+
+   </tbody>
+</table>
+</div>
+
+</body>
+</html>

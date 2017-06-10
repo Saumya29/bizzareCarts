@@ -1,0 +1,55 @@
+.item{
+	text-align: center;
+}
+
+h1{
+font-family: 'Lato', sans-serif;
+	font-size: 100em;
+	text-align: center;
+}
+.pic{
+
+	height:10rem;
+	width: 10rem;
+	align-self: center;
+}
+
+.anim{
+	text-align: center;
+    background-color: violet;
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 4s;
+        border:solid 1px black;
+        
+}
+
+@keyframes example {
+    from {background-color: violet;}
+    to {background-color: yellow;}
+}
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
